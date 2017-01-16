@@ -1,0 +1,12 @@
+Name: 		Alice Liddell
+Address: 	99 Mysterious Ln Wonderland
+Email address: 	alice@wonderland.com
+Phone number: 	+99 234 567 890
+Delivery by: 	Regular post
+Ordered: 
+   1 x 	Fantasy Land	 @ 42.26 each 	Sub-total:  42.26 
+   1 x 	Yorisoi		 @ 35.10 each 	Sub-total:  35.10 
+
+					Total price: 77.36
+on 16:56 16/01/2017
+

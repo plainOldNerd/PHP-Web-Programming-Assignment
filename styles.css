@@ -1,0 +1,80 @@
+head, body
+{margin:0px; padding:0px; border:0px; width:100%; font-size: 150%;}
+
+/*  http://stackoverflow.com/questions/1575141/make-div-100-height-of-browser-window  
+    See also .contents min-height  */
+body, html
+{height:100%; min-width:1000px; font-family:Times New Roman}
+
+#masthead
+{width:10%; float:left}
+
+#logo
+{height:50px; width:150px}
+
+a
+{color:black}
+
+#navi
+{width:50%; float:left; font-weight:bold}
+
+/*  http://csswizardry.com/2011/02/creating-a-pure-css-dropdown-menu/  */
+#naviUL
+{list-style:none; float:left}
+#naviUL li 
+{float:left; margin-right:30px}
+#naviUL a 
+{color:black; text-decoration:none}
+#naviUL a:visited {}
+#naviUL ul li 
+{float:none} 
+#naviUL li ul 
+{list-style:none; position:absolute; left:-9999px}
+#naviUL li:hover ul 
+{position:relative; left:-40px}
+
+#logIn
+{width:40%; float:left; font-weight:bold; text-align:left}
+
+#contents
+{min-height:100%; background-image:url(images/Ouka1000p50x75trans.png); background-attachment:fixed; background-repeat:no-repeat; background-size:100% 100%; 
+ font-weight:bold; color:black}
+
+.homeHeader
+{text-align:center}
+
+.singleDivWidth
+{width:90%; margin-left:auto; margin-right:auto}
+
+.left
+{width:50%; float:left}
+
+/*  http://www.w3.org/Style/Examples/007/center.en.html  
+    See also .productLeftImg  */
+.leftImg
+{border: 10px solid white; height:120px; display:block; margin-left:auto; margin-right:auto}
+
+.right
+{width:50%; float:left}
+
+/*  http://www.w3schools.com/css/css_float.asp  */
+.clear
+{clear:both; visibility:hidden}
+
+.productLeft
+{width:50%; float:left}
+
+.productLeftImg
+{border: 10px solid white; height:300px; display:block; margin-left:auto; margin-right:auto}
+
+.productRight
+{width:30%; float:left}
+
+#orderBox
+{border-style:solid; width:300px; border-color:purple; margin-left:auto; margin-right:auto; background-color:white; text-align:center}
+
+.cartTable
+{text-align:right}
+
+#footer
+{font-size:67%}
